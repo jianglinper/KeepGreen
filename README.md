@@ -20,6 +20,14 @@
 - 修改 [ci.yml 文件的第 19、20 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L19-L20) 为自己的 GitHub 账号和昵称
 - (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
 
+
+复制后需要设置Actions权限
+
+![设置权限1](./images/1.png)
+
+
+![设置权限2](./images/2.png)
+
 计划任务语法有 5 个字段，中间用空格分隔，每个字段代表一个时间单位。
 
 > git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
